@@ -1,0 +1,38 @@
+[
+  {
+    "id": 7878,
+    "name": "Diagnostics & Emergency Treatment",
+    "desc": "Emergency Department patient management In the Emergency Department, accurate diagnosis in a minimum of time is critical to ensure the best patient outcomes. Every minute counts: you need to identify patients at high risk of a life-threatening condition and rapidly initiate appropriate treatment.",
+    "img": "https://i.ibb.co/Tb6Wq2k/report.png"
+  },
+  {
+    "id": 7858,
+    "name": "Pharmacy refunded from hospital",
+    "desc": "All items must contain original tags. All returned items must not have smoke smell, cologne/perfume smell, or pet hair. -Unless noted that it cannot be returned or has a different return policy time period other than that 14 days noted in that item's particular item description..",
+    "img": "https://i.ibb.co/7zdgBRH/refunded.png"
+  },
+  {
+    "id": 66608,
+    "name": "Home medical appointments",
+    "desc": " we provide medical consultation performed by a doctor or other healthcare professionals visiting the home of a patient or client, instead of the patient visiting the doctor's clinic or hospital. ...",
+    "img": "https://i.ibb.co/23t849z/doctor.png"
+  },
+  {
+    "id": 46608,
+    "name": "A specialized laboratory research",
+    "desc": " A type of reference lab dedicated to a particular type of 'esoteric' testing–eg, allergy, coagulation, drugs–especially drugs of abuse, endocrinology, genetics, paternity, virology, etc. Cf Reference laboratory.",
+    "img": "https://i.ibb.co/kMmF322/medical-research.png"
+  },
+  {
+    "id": 48708,
+    "name": "Medical transport to the hospital",
+    "desc": " Medical transportation services enable patients to reach their destination quickly and efficiently. While in transit, highly trained drivers, emergency medical technicians (EMTs) and paramedics provide medical services that may be needed to ensure a safe arrival.",
+    "img": "https://i.ibb.co/FHvbThv/ambulance.png"
+  },
+  {
+    "id": 47508,
+    "name": "Long term medical care in a hospital",
+    "desc": "Long-term care is a variety of services which help meet both the medical and non-medical needs of people with a chronic illness or disability who cannot care for themselves for long periods. We offer a primary care model complete with skilled nursing facilities, to provide critical care.",
+    "img": "https://i.ibb.co/hBkNx7c/blood-donation.png"
+  }
+]
