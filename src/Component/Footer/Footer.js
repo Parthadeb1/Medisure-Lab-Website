@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
 
       <div className=" d-flex justify-content-center align-item-center">
-        <h5>®™ Copyright reserve to MediHealth</h5>
+        <h5>®™ Copyright reserve to Medi<span className="text-danger">Health</span> </h5>
       </div>
     </div>
   );
