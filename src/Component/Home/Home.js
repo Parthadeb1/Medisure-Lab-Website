@@ -20,7 +20,7 @@ const Home = () => {
       alt="First slide"
     />
     <Carousel.Caption>
-     <h3 className="fs-1 fw-bold text-dark">"Your Health is always in the first place"</h3>
+     <h1 className="fs-1 fw-bold text-dark">"Your Health is always in the first place"</h1>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -31,8 +31,8 @@ const Home = () => {
     />
 
     <Carousel.Caption>
-      <h3 className="fs-1 fw-bold text-dark">We help you to find the best doctor around you
-Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h3>
+      <h1 className="fs-1 fw-bold text-white">We help you to find the best doctor around you
+Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h1>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -43,7 +43,7 @@ Separated they live in Bookmarksgrove right at the coast of the Semantics, a lar
     />
 
     <Carousel.Caption>
-      <h3  className="fs-1 fw-bold text-dark">Guaranted safe & potent Medicine</h3>
+      <h1  className="fs-1 fw-bold text-dark">Guaranted safe & potent Medicine</h1>
       
     </Carousel.Caption>
   </Carousel.Item>

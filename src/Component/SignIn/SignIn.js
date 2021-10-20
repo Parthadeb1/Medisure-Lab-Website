@@ -1,9 +1,53 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
 
 const SignIn = () => {
-  const { signInUsingGoogle } = useAuth();
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+
+  const { user,setUser, signInUsingGoogle,customSignInWithEmailAndPassword } = useAuth();
+  if(user.email){
+    window.location.replace('/')
+  }
+//email and password setup
+  const handleEmailChange = e => {
+    setEmail(e.target.value);
+  }
+
+  const handlePasswordChange = e => {
+    setPassword(e.target.value)
+  }
+
+  //user sign in process
+  const handleSignIn = e => {
+    e.preventDefault();
+    console.log(email, password);
+    if (password.length < 6) {
+      setError('Password Must be at least 6 characters long.')
+      return;
+    }
+    if (!/(?=.*[A-Z].*[A-Z])/.test(password)) {
+      setError('Password Must contain 2 upper case');
+      return;
+    }
+
+    processLogin(email, password);
+  }
+
+  const processLogin = (email, password) => {
+    customSignInWithEmailAndPassword(email, password)
+      .then(result => {
+        const user = result.user;
+        setUser(user);
+        console.log(user);
+        setError('');
+      })
+      .catch(error => {
+        setError(error.message);
+      })
+  }
 
   return (
     <div className="container">
@@ -11,9 +55,9 @@ const SignIn = () => {
         <h1 className="fs-1 fw-bold">
           Medi<span className="text-danger">Health</span>{" "}
         </h1>
-        <form className="w-50 mx-auto">
+        <form onSubmit={handleSignIn} className="w-50 mx-auto">
           <div className="mb-3">
-            <input
+            <input onBlur={handleEmailChange}
               type="email"
               className="form-control p-3"
               placeholder="Email"
@@ -21,12 +65,13 @@ const SignIn = () => {
             />
           </div>
           <div className="mb-3">
-            <input
+            <input onBlur={handlePasswordChange}
               type="password"
               className="form-control p-3"
               placeholder="Password"
               required
             />
+            <p className="text-danger">{error}</p>
           </div>
           <div className="d-flex justify-content-center align-items-center ">
             <button
