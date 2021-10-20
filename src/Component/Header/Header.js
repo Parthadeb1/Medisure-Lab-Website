@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import Home from "../Home/Home";
+import Service from "../Services/Services/Service";
+import Doctors from "../Doctors/Doctors";
 
 
 const Header = () => {

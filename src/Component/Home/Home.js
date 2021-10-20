@@ -31,7 +31,7 @@ const Home = () => {
     />
 
     <Carousel.Caption>
-      <h1 className="fs-1 fw-bold text-white">We help you to find the best doctor around you
+      <h1 className="fs-1 fw-bold text-dark">We help you to find the best doctor around you
 Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h1>
     </Carousel.Caption>
   </Carousel.Item>
@@ -43,7 +43,7 @@ Separated they live in Bookmarksgrove right at the coast of the Semantics, a lar
     />
 
     <Carousel.Caption>
-      <h1  className="fs-1 fw-bold text-dark">Guaranted safe & potent Medicine</h1>
+      <h1  className="fs-1 fw-bold dark">Guaranted safe & potent Medicine</h1>
       
     </Carousel.Caption>
   </Carousel.Item>

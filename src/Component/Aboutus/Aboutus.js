@@ -2,7 +2,6 @@ import React from 'react';
 import aboutus from "../../images/aboutus.png"
 import { faHandPointRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import Footer from '../Footer/Footer';
 
 const Aboutus = () => {
     const  element1 = <FontAwesomeIcon icon={faHandPointRight} />;
@@ -24,7 +23,6 @@ const Aboutus = () => {
             </div>
             
             </div>
-            <Footer/>
            
             </div>
             

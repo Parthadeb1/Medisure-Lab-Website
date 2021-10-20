@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Footer from '../Footer/Footer';
 import Doctor from './Doctor/Doctor';
 
 const Doctors = () => {
@@ -27,7 +26,6 @@ const Doctors = () => {
         ))}
       </div>
     </div>
-    <Footer/>
       </div>
     );
 };
